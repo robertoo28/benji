@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benji - Mi Pequines Favorito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="paw-prints" aria-hidden="true"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Te presento a...</p>
+            <h1 class="hero-title">Benji</h1>
+            <p class="hero-subtitle">Benji Quetiapino Portilla Aragon</p>
+            <p class="hero-tagline">Pequines adorable &bull; 3 añitos de amor puro</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <h2 class="section-title">Conoce a Benji al perrito mas consentido del mundo</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <span class="card-icon">&#127880;</span>
+                    <h3>Edad</h3>
+                    <p>3 añitos de puro ser consentido y comer sopita</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">&#128197;</span>
+                    <h3>Cumpleaños</h3>
+                    <p>22 de diciembre</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">&#128054;</span>
+                    <h3>Raza</h3>
+                    <p>Pequines</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">&#10084;&#65039;</span>
+                    <h3>Lo que ama</h3>
+                    <p>Su pelota de Temu y ponerse pijamas antes de dormir</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">&#128552;</span>
+                    <h3>Sus miedos</h3>
+                    <p>Los perros grandes</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">&#127775;</span>
+                    <h3>Personalidad</h3>
+                    <p>Dormilon, tierno y el rey de la casa. A veces es el señor de la noche</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2 class="section-title">Galeria de Benji</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="img/benji-1.jpeg" alt="Benji mirando a la camara de cerca" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-2.jpeg" alt="Benji de paseo sacando la lengua" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-3.jpeg" alt="Benji muy comodo en la cama" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-4.jpeg" alt="Benji mirando hacia arriba" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-5.jpeg" alt="Benji en su camita" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-6.jpeg" alt="Benji durmiendo con pijama" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-7.jpeg" alt="Benji durmiendo panza arriba" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-8.jpeg" alt="Benji dormido en el piso" loading="lazy">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/benji-9.jpeg" alt="Benji durmiendo placidamente" loading="lazy">
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-btn-prev" aria-label="Foto anterior">&#10094;</button>
+                <button class="carousel-btn carousel-btn-next" aria-label="Siguiente foto">&#10095;</button>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <section class="pixel-art-section" id="pixel-art">
+            <h2 class="section-title">Benji en pixel art</h2>
+            <p class="pixel-subtitle"></p>
+            <div class="pixel-canvas-wrapper">
+                <canvas id="pixelCanvas" aria-label="Pixel art de Benji"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con &#10084;&#65039; para Benji y su linda mami</p>
+        <p class="footer-paws">&#128062; &#128062; &#128062;</p>
+    </footer>
+
+    <script src="js/pixel-art-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
